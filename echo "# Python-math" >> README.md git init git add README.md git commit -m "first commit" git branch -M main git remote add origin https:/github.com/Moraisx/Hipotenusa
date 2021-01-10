@@ -1,0 +1,6 @@
+from math import hypot
+
+n=float(input('Digite o cateto oposto: '))
+n2=float(input('Digite o cateto adjacente: '))
+hip=hypot(n,n2)
+print('O valor da hipotenusa é {}'.format(hip))
